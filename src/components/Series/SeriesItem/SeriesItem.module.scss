@@ -1,0 +1,46 @@
+.seriesItemWrapper {
+    border: grey solid 1px;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 10px 40px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    //background-image: url("../../Wrapper/texture.jpg");
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.idWrapper {
+    width: 15%;
+    text-align: center;
+}
+.matchDate {
+
+}
+.id {
+
+}
+.seriesType {
+    width: 13%;
+    text-align: center;
+}
+.duration {
+    width: 12%;
+    text-align: center;
+}
+.winner {
+    width: 15%;
+    text-align: center;
+}
+.teams {
+    width: 25%;
+    text-align: center;
+}
+.matchList {
+    width: 20%;
+    text-align: center;
+}

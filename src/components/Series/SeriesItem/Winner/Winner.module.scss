@@ -1,0 +1,22 @@
+.winnerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teamWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.teamImg {
+  height: 40px;
+  object-fit: contain;
+  width: auto;
+}
+
+.img {
+  width: 100px;
+}

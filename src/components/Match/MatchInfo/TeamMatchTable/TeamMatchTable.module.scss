@@ -1,0 +1,33 @@
+.playerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.table {
+  color: grey;
+}
+
+.img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.playerName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.player_name {
+  font-size: 20px;
+  color: darkviolet;
+}
+
+.hero {
+
+}
+
+.item {
+  height: 40px;
+}

@@ -1,0 +1,29 @@
+.teamsWrapper {
+  padding-left: 15px;
+}
+
+.teamPic {
+  height: 30px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.imgSize {
+  width: 55px;
+  display: inline-block;
+}
+
+.teamWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
