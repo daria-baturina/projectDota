@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/projectDota/static/css/main.c590cac2.chunk.css",
-    "main.js": "/projectDota/static/js/main.df71ab89.chunk.js",
-    "main.js.map": "/projectDota/static/js/main.df71ab89.chunk.js.map",
+    "main.css": "/projectDota/static/css/main.4f8479e4.chunk.css",
+    "main.js": "/projectDota/static/js/main.a94d7a19.chunk.js",
+    "main.js.map": "/projectDota/static/js/main.a94d7a19.chunk.js.map",
     "runtime-main.js": "/projectDota/static/js/runtime-main.68f827ff.js",
     "runtime-main.js.map": "/projectDota/static/js/runtime-main.68f827ff.js.map",
-    "static/js/2.2ddf13e2.chunk.js": "/projectDota/static/js/2.2ddf13e2.chunk.js",
-    "static/js/2.2ddf13e2.chunk.js.map": "/projectDota/static/js/2.2ddf13e2.chunk.js.map",
+    "static/js/2.16d850dc.chunk.js": "/projectDota/static/js/2.16d850dc.chunk.js",
+    "static/js/2.16d850dc.chunk.js.map": "/projectDota/static/js/2.16d850dc.chunk.js.map",
     "index.html": "/projectDota/index.html",
-    "static/css/main.c590cac2.chunk.css.map": "/projectDota/static/css/main.c590cac2.chunk.css.map",
-    "static/js/2.2ddf13e2.chunk.js.LICENSE.txt": "/projectDota/static/js/2.2ddf13e2.chunk.js.LICENSE.txt",
+    "static/css/main.4f8479e4.chunk.css.map": "/projectDota/static/css/main.4f8479e4.chunk.css.map",
+    "static/js/2.16d850dc.chunk.js.LICENSE.txt": "/projectDota/static/js/2.16d850dc.chunk.js.LICENSE.txt",
     "static/media/Wrapper.module.scss": "/projectDota/static/media/background.813289ae.jpeg",
     "static/media/logo (1).4e50d5d0.png": "/projectDota/static/media/logo (1).4e50d5d0.png",
     "static/media/notFound.550f2e92.png": "/projectDota/static/media/notFound.550f2e92.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.68f827ff.js",
-    "static/js/2.2ddf13e2.chunk.js",
-    "static/css/main.c590cac2.chunk.css",
-    "static/js/main.df71ab89.chunk.js"
+    "static/js/2.16d850dc.chunk.js",
+    "static/css/main.4f8479e4.chunk.css",
+    "static/js/main.a94d7a19.chunk.js"
   ]
 }
