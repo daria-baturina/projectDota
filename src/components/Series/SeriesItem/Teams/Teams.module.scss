@@ -27,3 +27,23 @@
   flex-direction: row;
   align-items: center;
 }
+
+@media screen and (max-width: 425px) {
+  .teamPic {
+    height: 25px;
+  }
+  .imgSize {
+    width: 35%;
+    display: inline-block;
+  }
+  .teamsWrapper {
+    padding-left: 0;
+  }
+  .span {
+    width: 65%;
+  }
+  .wrapper {
+    width: 100%;
+    justify-content: start;
+  }
+}

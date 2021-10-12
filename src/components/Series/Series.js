@@ -13,7 +13,7 @@ const Series = () => {
 
   const redirectToHome = () => {
     if (data === undefined) {
-      history.push(``);
+      history.push(`/DotaProject/`);
     }
   };
 

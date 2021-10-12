@@ -37,13 +37,10 @@ const Match = () => {
     setIsLoading(false);
   }
 
-  console.log(matchInfo);
-
   useEffect(() => {
     loadData();
   }, [])
 
-  console.log(123);
 
   return (
     <Wrapper>

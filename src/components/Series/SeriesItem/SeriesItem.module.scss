@@ -12,6 +12,7 @@
     color: white;
     font-size: 20px;
     padding: 0 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.6) inset;
 }
 
 .idWrapper {
@@ -25,7 +26,7 @@
 
 }
 .seriesType {
-    width: 13%;
+    width: 11%;
     text-align: center;
 }
 .duration {
@@ -37,10 +38,38 @@
     text-align: center;
 }
 .teams {
-    width: 25%;
+    width: 27%;
     text-align: center;
 }
 .matchList {
     width: 20%;
     text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .seriesItemWrapper {
+        font-size: 14px;
+        margin: 20px 0;
+        padding: 0 5px;
+        height: 90px;
+    }
+    .seriesType {
+        display: none;
+    }
+    .duration {
+        display: none;
+    }
+    .idWrapper {
+        width: 19%;
+        font-size: 12px;
+    }
+    .winner {
+        width: 18%;
+    }
+    .teams {
+        width: 28%;
+    }
+    .matchList {
+        width: 35%;
+    }
 }

@@ -23,7 +23,6 @@ const TeamMatchTable = ({players}) => {
   }
 
   const itemsArr = Object.entries(itemsData);
-  console.log(itemsArr);
 
   let addedPlayers = players.map((player) => {
     const id = player.hero_id;
@@ -58,8 +57,6 @@ const TeamMatchTable = ({players}) => {
       ...player
     };
   });
-
-  console.log(addedPlayers);
 
   return (
     <TableContainer component={Paper} >

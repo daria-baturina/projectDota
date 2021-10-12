@@ -1,16 +1,27 @@
 .wrapper {
   border: grey solid 1px;
   border-radius: 10px;
-  background-color: grey;
-  width: 50%;
-  margin: 40px 40px 40px auto;
-  height: 160px;
+  background-color: lightgrey;
+  width: 40%;
+  margin: 40px 60px 40px auto;
+  height: 140px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   //background-image: url("../../Wrapper/texture.jpg");
   color: white;
   font-size: 20px;
+  padding: 10px 10px;
+  box-shadow: 0 0 30px 10px rgba(172, 177, 180, 0.6);
   //padding: 0 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper {
+    margin: 40px 0 20px auto;
+    width: calc(100% - 10px);
+    padding: 0 5px;
+    height: 70px;
+  }
 }

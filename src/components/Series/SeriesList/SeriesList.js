@@ -17,9 +17,6 @@ const SeriesList = () => {
       }
   });
 
-  console.log (allSeriesID);
-  console.log (teamsPick.team);
-  console.log (datePick.date);
   allSeriesID.sort(( a, b ) =>  b.date - a.date);
   let uniqueSeries = [];
   allSeriesID.forEach(series => {
@@ -38,13 +35,10 @@ const SeriesList = () => {
   if (datePick.date) {
     const roundDate = new Date(datePick.date);
     roundDate.setHours(0,0,0,0);
-    console.log(roundDate);
     uniqueSeries = uniqueSeries.filter((series) =>
       series.date.valueOf() === roundDate.valueOf()
     )
   }
-
-  console.log(uniqueSeries);
 
   let seriesItems = uniqueSeries.map(item => {
     return (

@@ -31,11 +31,11 @@ const Teams = ({matches, className}) => {
       <div className={styles.teamWrapper}>
         <div className={styles.wrapper}>
           <div className={styles.imgSize}><img src={firstTeamPicUrl} className={styles.teamPic}/></div>
-          <span>{firstTeamName}</span>
+          <span className={styles.span}>{firstTeamName}</span>
         </div>
         <div className={styles.wrapper}>
           <div className={styles.imgSize}><img src={secondTeamPicUrl} className={styles.teamPic}/></div>
-          <span>{secondTeamName}</span>
+          <span className={styles.span}>{secondTeamName}</span>
         </div>
       </div>
     </div>

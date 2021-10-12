@@ -4,3 +4,10 @@
   justify-content: flex-start;
   align-items: center;
 }
+
+@media screen and (max-width: 425px) {
+  .matchList {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

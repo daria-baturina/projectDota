@@ -8,7 +8,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  font-size: 25px;
+  font-size: 22px;
+  box-shadow: 0 0 30px 10px rgba(172, 177, 180, 0.6);
 }
 
 .seriesWrapper {
@@ -42,4 +43,29 @@
 .matches {
   width: 20%;
   text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .seriesType {
+    display: none;
+  }
+  .duration {
+    display: none;
+  }
+  .seriesWrapper {
+    width: 20%;
+  }
+  .winner {
+    width: 20%;
+  }
+  .teams {
+    width: 30%;
+  }
+  .matches {
+    width: 30%;
+  }
 }

@@ -1,5 +1,15 @@
 .headerWrapper {
   margin: 50px 20px 80px 45%;
+  border: grey solid 1px;
+  border-radius: 10px;
+  background-color: #3C3C3C;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px 10px rgba(172, 177, 180, 0.6);
 }
 
 .scoreWrapper {
@@ -10,9 +20,9 @@
 }
 
 .direScore {
-  color: darkred;
+  color: #FF0000;
 }
 
 .radiantScore {
-  color: darkgreen;
+  color: #336600;
 }

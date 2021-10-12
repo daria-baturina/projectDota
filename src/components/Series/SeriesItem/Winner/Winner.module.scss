@@ -20,3 +20,13 @@
 .img {
   width: 100px;
 }
+
+@media screen and (max-width: 425px) {
+  .img {
+    display: none;
+  }
+  .teamWrapper {
+    font-size: 13px;
+    width: 100%;
+  }
+}
