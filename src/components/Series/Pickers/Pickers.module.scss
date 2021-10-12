@@ -1,0 +1,16 @@
+.wrapper {
+  border: grey solid 1px;
+  border-radius: 10px;
+  background-color: grey;
+  width: 50%;
+  margin: 40px 40px 40px auto;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  //background-image: url("../../Wrapper/texture.jpg");
+  color: white;
+  font-size: 20px;
+  //padding: 0 10px;
+}

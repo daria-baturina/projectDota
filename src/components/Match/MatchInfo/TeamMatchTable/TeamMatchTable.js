@@ -63,20 +63,20 @@ const TeamMatchTable = ({players}) => {
 
   return (
     <TableContainer component={Paper} >
-      <Table sx={{ minWidth: 650, bgcolor: 'text.disabled'  }} aria-label="simple table">
+      <Table sx={{ minWidth: 650, bgcolor: 'text.disabled'}} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell align="left">PLAYER</TableCell>
-            <TableCell align="center">LVL</TableCell>
-            <TableCell align="center">K/D/A</TableCell>
-            <TableCell align="center">LH/DN</TableCell>
-            <TableCell align="center">NET</TableCell>
-            <TableCell align="center">GPM</TableCell>
-            <TableCell align="center">XPM</TableCell>
-            <TableCell align="center">HD</TableCell>
-            <TableCell align="center">TD</TableCell>
-            <TableCell align="center">HH</TableCell>
-            <TableCell align="center">ITEMS</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="left">PLAYER</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">LVL</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">K/D/A</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">LH/DN</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">NET</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">GPM</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">XPM</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">HD</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">TD</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">HH</TableCell>
+            <TableCell sx={{ color: 'common.white', fontSize: 25}} align="center">ITEMS</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -85,7 +85,7 @@ const TeamMatchTable = ({players}) => {
               key={player.player_slot}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
-              <TableCell scope="row" align="center">
+              <TableCell sx={{fontSize: 16}} scope="row" align="center">
                 <div className={styles.playerWrapper}>
                   <img src={player.url} alt='' className={styles.img} />
                   <div className={styles.playerName}>
@@ -94,16 +94,16 @@ const TeamMatchTable = ({players}) => {
                   </div>
                 </div>
               </TableCell>
-              <TableCell align="center">{player.level}</TableCell>
-              <TableCell align="center">{player.kills}/{player.deaths}/{player.assists}</TableCell>
-              <TableCell align="center">{player.last_hits}/{player.denies}</TableCell>
-              <TableCell align="center">{player.new_net_worth}</TableCell>
-              <TableCell align="center">{player.gold_per_min}</TableCell>
-              <TableCell align="center">{player.xp_per_min}</TableCell>
-              <TableCell align="center">{player.new_hero_damage}</TableCell>
-              <TableCell align="center">{player.new_tower_damage}</TableCell>
-              <TableCell align="center">{player.new_hero_healing}</TableCell>
-              <TableCell align="left"><div>
+              <TableCell sx={{fontSize: 20}} align="center">{player.level}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="center">{player.kills}/{player.deaths}/{player.assists}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="center">{player.last_hits}/{player.denies}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="center">{player.new_net_worth}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="center">{player.gold_per_min}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="center">{player.xp_per_min}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="center">{player.new_hero_damage}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="center">{player.new_tower_damage}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="center">{player.new_hero_healing}</TableCell>
+              <TableCell sx={{fontSize: 20}} align="left"><div>
                 {player.items.map((url) => {
                   return (
                     <img alt='item' src={url} className={styles.item}/>

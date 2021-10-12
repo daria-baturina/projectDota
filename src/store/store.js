@@ -4,6 +4,8 @@ import leagueReducer from "./league";
 import matchReducer from "./match";
 import heroesReducer from "./heroes";
 import itemsReducer from "./items";
+import teamsPickReducer from "./teamState";
+import datePickReducer from "./dateState";
 
 const store = configureStore({
   reducer: {
@@ -12,6 +14,8 @@ const store = configureStore({
     match: matchReducer,
     heroes: heroesReducer,
     items: itemsReducer,
+    teamsPick: teamsPickReducer,
+    datePick: datePickReducer,
   }
 })
 

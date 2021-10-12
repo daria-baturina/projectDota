@@ -5,7 +5,7 @@ import SeriesList from "./SeriesList/SeriesList";
 import {useSelector} from "react-redux";
 import {useEffect} from "react";
 import {useHistory} from "react-router-dom";
-import TeamPicker from "./TeamPicker/TeamPicher";
+import Pickers from "./Pickers/Pickers";
 
 const Series = () => {
   const history = useHistory();
@@ -24,11 +24,12 @@ const Series = () => {
 
   return (
     <Wrapper>
-      <TeamPicker/>
       {data &&
-        <SeriesHeader/>}
+      <Pickers/>}
       {data &&
-        <SeriesList/>}
+      <SeriesHeader/>}
+      {data &&
+      <SeriesList/>}
     </Wrapper>
   );
 }
