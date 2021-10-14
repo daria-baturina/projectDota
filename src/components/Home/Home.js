@@ -19,7 +19,7 @@ const Home = () => {
       dispatch(getTeamsData()),
     ]);
 
-    history.push(`/DotaProject/series`);
+    history.push(`/projectDota/series`);
   };
 
   useEffect(() => {

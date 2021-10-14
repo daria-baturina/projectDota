@@ -9,13 +9,13 @@ function App() {
   return (
       <Provider store={store}>
         <BrowserRouter>
-          <Route exact path="/DotaProject/">
+          <Route exact path="/projectDota/">
             <Home/>
           </Route>
-          <Route exact path="/DotaProject/series">
+          <Route exact path="/projectDota/series">
             <Series/>
           </Route>
-          <Route exact path="/DotaProject/series/:matchId">
+          <Route exact path="/projectDota/series/:matchId">
             <Match/>
           </Route>
         </BrowserRouter>

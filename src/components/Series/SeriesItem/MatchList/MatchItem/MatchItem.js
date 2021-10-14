@@ -8,7 +8,7 @@ const MatchItem = ({match, index} ) => {
   const history = useHistory();
 
   const handleOnClick = () => {
-    history.push(`/DotaProject/series/${matchId}`);
+    history.push(`/projectDota/series/${matchId}`);
   }
   const view = useMediaQuery('(max-width: 425px)');
 
